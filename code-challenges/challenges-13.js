@@ -69,7 +69,7 @@ const stringReverse = (str) => {
     let arr = str.split(" ");
     let reversed = arr.reduce((init, next) => {
         init.unshift(next);
-        console.log(init);
+        // console.log(init);
         return init;
     }, []);
     return reversed.join(" ");
